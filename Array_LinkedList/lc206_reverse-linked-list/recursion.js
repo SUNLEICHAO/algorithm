@@ -9,10 +9,9 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-//#2：递归
 var reverseList = function (head) {
+  //#2：递归
   if (head === null || head.next === null) return head
-
   const newHead = reverseList(head.next);
   head.next.next = head;
   head.next = null;

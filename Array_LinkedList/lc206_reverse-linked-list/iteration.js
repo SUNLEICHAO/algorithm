@@ -9,9 +9,8 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-//#1：迭代
 var reverseList = function (head) {
-  
+  //#1：迭代
   // 前一个
   let prev = null;
   let curr = head;
@@ -23,6 +22,7 @@ var reverseList = function (head) {
     prev = curr;
     curr = next;
   }
+  // 最后一个
   return prev
 };
 
