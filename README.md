@@ -33,3 +33,7 @@
 
 + 变量名字写错
 + 变量写成了脑海中的数字("max"->"3")
+
+## 算法记录,问题
+
++ https://leetcode.cn/problems/remove-element/，这道题的输出究竟是什么？

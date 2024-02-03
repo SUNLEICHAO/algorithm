@@ -10,8 +10,7 @@
  * @return {ListNode}
  */
 var swapPairs = function (head) {
-  const dummyHead = new ListNode(0);
-  dummyHead.next = head;
+  const dummyHead = new ListNode(0,head);
   // 这里temp要赋值给哑节点，不要给head
   let temp = dummyHead;
   while (temp.next !== null && temp.next.next !== null) {
