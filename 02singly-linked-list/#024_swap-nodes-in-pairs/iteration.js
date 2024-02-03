@@ -17,6 +17,7 @@ var swapPairs = function (head) {
     const node1 = temp.next;
     const node2 = temp.next.next;
     temp.next = node2;
+    // node2和node1的顺序很重要！
     node1.next = node2.next;
     node2.next = node1;
     // 指针移向node1，下一对的前面
