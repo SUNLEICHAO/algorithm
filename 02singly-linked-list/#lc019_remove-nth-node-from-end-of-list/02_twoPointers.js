@@ -24,7 +24,7 @@ var removeNthFromEnd = function (head, n) {
     return head.next
   } 
 
-  // 一直往后遍历
+  // 一直往后遍历,直到fast为最后一个节点
   while (fast.next) {
     slow = slow.next;
     fast = fast.next;

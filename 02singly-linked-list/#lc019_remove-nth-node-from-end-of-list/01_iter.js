@@ -11,7 +11,7 @@
  * @return {ListNode}
  */
 var removeNthFromEnd = function (head, n) {
-  // 阐删除倒数第n个节点：将n个元素先存起来
+  // 删除倒数第n个节点：将n个元素先存起来
   let dummy = new ListNode(0, head);
   let prev = dummy;
   let curr = head;
