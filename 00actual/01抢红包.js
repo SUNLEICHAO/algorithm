@@ -1,3 +1,6 @@
+/* 
+  抢红包，拼手气类型，给出总额和个数，给出结果数列。
+*/
 let redPackage = function (total, num) {
   let res = [];
   let total100 = total * 100;
